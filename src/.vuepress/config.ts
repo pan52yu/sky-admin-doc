@@ -1,15 +1,16 @@
-import { defineUserConfig } from "vuepress";
+import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+    base: "/",
 
-  lang: "zh-CN",
-  title: "Sky-Admin-Doc",
-  description: "开箱即用的后台模板",
+    lang: "zh-CN",
+    title: "Sky-Admin-Doc",
+    description: "开箱即用的后台模板",
 
-  theme,
+    theme,
+    plugins: []
 
-  // Enable it with pwa
-  // shouldPrefetch: false,
+    // Enable it with pwa
+    // shouldPrefetch: false,
 });

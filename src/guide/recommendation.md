@@ -1,0 +1,26 @@
+# 网站推荐
+
+## 本项目使用到的技术
+|         [vue3](https://cn.vuejs.org/)          |                [vite](https://cn.vitejs.dev/)                |       [element-plus](https://element-plus.org/zh-CN/)        |                 [pnpm](https://pnpm.io/zh/)                  |
+| :--------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [pinia](https://pinia.vuejs.org/zh/index.html) |          [vue-router](https://router.vuejs.org/zh/)          |                [UnoCss](https://unocss.dev/)                 |            [sass](https://sass-lang.com/install/)            |
+|        [vitest](https://cn.vitest.dev/)        | [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import) | [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) | [unplugin-vue-macros](https://github.com/vue-macros/vue-macros) |
+| [typescript](https://www.typescriptlang.org/)  |            [taze](https://github.com/antfu/taze)             |     [lint-staged](https://github.com/okonet/lint-staged)     |                [eslint](https://eslint.org/)                 |
+|         [Vueuse](https://vueuse.org/)          |      [typeit](https://github.com/alexmacarthur/typeit)       | [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks) |         [@vueuse/motion](https://motion.vueuse.org/)         |
+
+
+
+
+## 推荐的技术网站
+
+| [vue3 官方中文文档](https://cn.vuejs.org/)                   | [vite 官方中文文档](https://cn.vitejs.dev/)                  | [element-plus 官方中文文档](https://element-plus.org/zh-CN/) |
+| :--------------: | :--------------: | :--------------: |
+| [pinia 官方中文文档](https://pinia.vuejs.org/zh/index.html)  | [vue-router 官方中文文档](https://router.vuejs.org/zh/)      | [Tailwind CSS 官方文档](https://tailwindcss.com/docs/installation) |
+| [vitest 官方中文文档](https://cn.vitest.dev/)                | [es6 中文文档](https://es6.ruanyifeng.com/#docs/proxy)       | [axios 中文文档](https://www.axios-http.cn/)                 |
+| [vxetable 官方中文文档](https://vxetable.cn/#/table/start/install) | [lodash 官方中文文档](https://www.lodashjs.com/)             | [echarts 官方中文文档](https://echarts.apache.org/zh/index.html) |
+| [animate.css 官方文档](https://animate.style/)               | [设计师必备网站](https://www.meigong8.com/)                  | [JavaScript 中文文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) |
+| [JavaScript 风格指南一](https://github.com/airbnb/javascript) | [JavaScript 风格指南二](https://github.com/airbnb/javascript) | [rollup 官方中文文档](https://cn.rollupjs.org/)              |
+| [vueuse](https://vueuse.org/)                                | [dayjs 官方中文文档](https://dayjs.gitee.io/zh-CN/)          | [typescript 官方中文文档](https://www.tslang.cn/docs/home.html) |
+| [swiper 官方文档](https://swiperjs.com/demos#default)        | [vue-i18n](https://vue-i18n.intlify.dev/)                    | [caniuse 浏览器兼容性查询](https://caniuse.com/)             |
+| [pnpm 官方中文文档](https://pnpm.io/zh/)                     | [tauri 中文官方文档](https://tauri.app/zh/)                  | [electron 官方中文文档](https://www.electronjs.org/zh/docs/latest) |
+| [nuxt3 中文文档](https://nuxt.com.cn/)                       | [vue3 动画库 @vueuse/motion](https://motion.vueuse.org/)     | [常用工具函数库 @pureadmin/utils](https://pure-admin-utils.netlify.app/) |

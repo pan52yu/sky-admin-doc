@@ -48,6 +48,15 @@ export default sidebar({
                     link: "/guide/unocss"
                 }
             ]
+        },
+        {
+            text: "其他",
+            children: [
+                {
+                    text: "技术栈",
+                    link: "/guide/recommendation"
+                }
+            ]
         }
     ],
     "/demo/": "structure"

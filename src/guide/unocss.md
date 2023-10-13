@@ -18,11 +18,11 @@
 
 + 鼠标移动到到对应的类名，即可带来智能提示，如下图
 
-<img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20231013152233340.png" alt="antfu.unocss" style="zoom:50%;" />
+![antfu.unocss](https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20231013152233340.png)
 
 + 提供智能提示
 
-<img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20231013152353100.png" alt="antfu.unocss2" style="zoom:33%;" />
+![antfu.unocss2](https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20231013152353100.png)
 
 ## `UnoCss`使用技巧
 
