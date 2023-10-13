@@ -1,6 +1,7 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 import {searchProPlugin} from "vuepress-plugin-search-pro";
+import {copyCode} from "vuepress-theme-hope";
 
 export default defineUserConfig({
     base: "/",
@@ -11,9 +12,10 @@ export default defineUserConfig({
 
     theme,
     plugins: [
-        searchProPlugin({ // https://plugin-search-pro.vuejs.press/zh/
+        // 搜索插件 https://plugin-search-pro.vuejs.press/zh/
+        searchProPlugin({
             indexContent: true
-        })
+        }),
     ]
 
     // Enable it with pwa

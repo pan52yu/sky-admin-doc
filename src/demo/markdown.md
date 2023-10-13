@@ -8,15 +8,48 @@ tag:
   - Markdown
 ---
 
+[Markdown增强](https://theme-hope.vuejs.press/zh/guide/markdown/intro.html)
+
+
 VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。
 
 你应该创建和编写 Markdown 文件，以便 VuePress 可以根据文件结构将它们转换为不同的页面。
 
 <!-- more -->
 
++ 代码块高亮演示
+```ts {1,6-8}
+import type { UserConfig } from "@vuepress/cli";
+import { defaultTheme } from "@vuepress/theme-default";
+
+export const config: UserConfig = {
+  title: "你好， VuePress",
+
+  theme: defaultTheme({
+    logo: "https://vuejs.org/images/logo.png",
+  }),
+};
+```
+
+```ts
+```ts {1,6-8}
+import type { UserConfig } from "@vuepress/cli";
+import { defaultTheme } from "@vuepress/theme-default";
+
+export const config: UserConfig = {
+  title: "你好， VuePress",
+
+  theme: defaultTheme({
+    logo: "https://vuejs.org/images/logo.png",
+  }),
+};
+```
+```
+
 ## Markdown 介绍
 
 如果你是一个新手，还不会编写 Markdown，请先阅读 [Markdown 介绍](https://theme-hope.vuejs.press/zh/cookbook/markdown/) 和 [Markdown 演示](https://theme-hope.vuejs.press/zh/cookbook/markdown/demo.html)。
+
 
 ## Markdown 配置
 
@@ -167,7 +200,7 @@ npm i -D vuepress-theme-hope
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/image.html)
 
-#### 卡片
+### 卡片
 
 ```card
 title: Mr.Hope
@@ -179,7 +212,7 @@ color: rgba(253, 230, 138, 0.15)
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/card.html)
 
-#### 图表
+### 图表
 
 ::: chart 一个散点图案例
 
@@ -215,7 +248,7 @@ color: rgba(253, 230, 138, 0.15)
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/chart.html)
 
-#### Echarts
+### Echarts
 
 ::: echarts 一个折线图案例
 
@@ -241,7 +274,7 @@ color: rgba(253, 230, 138, 0.15)
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/echarts.html)
 
-#### 流程图
+### 流程图
 
 ```flow
 cond=>condition: 是否执行操作?
@@ -254,7 +287,7 @@ cond(no)->e
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html)
 
-#### Mermaid
+### Mermaid
 
 ```mermaid
 ---
@@ -278,7 +311,7 @@ flowchart TB
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html)
 
-#### Tex 语法
+### Tex 语法
 
 $$
 \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
@@ -287,13 +320,13 @@ $$
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/tex.html)
 
-#### 导入文件
+### 导入文件
 
 <!-- @include: ./README.md{11-17} -->
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/include.html)
 
-#### 代码演示
+### 代码演示
 
 ::: normal-demo 一个普通 Demo
 
@@ -318,13 +351,13 @@ span {
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/demo.html)
 
-#### 样式化
+### 样式化
 
 向 Mr.Hope 捐赠一杯咖啡。 _Recommended_
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/stylize.html)
 
-#### 交互演示
+### 交互演示
 
 ::: playground#ts TS 案例
 
@@ -342,7 +375,7 @@ speak(msg);
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/playground.html)
 
-#### Vue 交互演示
+### Vue 交互演示
 
 ::: vue-playground Vue 交互演示
 
@@ -365,7 +398,7 @@ const msg = ref("Hello World!");
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/vue-playground.html)
 
-#### 幻灯片
+### 幻灯片
 
 @slidestart
 
