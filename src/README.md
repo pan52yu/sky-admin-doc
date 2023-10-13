@@ -10,12 +10,12 @@ bgImageStyle:
 heroText: Sky-Admin
 tagline: 开箱即用的中后台管理系统模版。
 actions:
-  - text: 使用指南 💡
-    link: ./demo/
+  - text: 快速开始 💡
+    link: ./guide/start
     type: primary
 
-  - text: 文档
-    link: ./guide/
+  - text: 在线预览
+    link: https://astonishing-sfogliatella-1fa2c4.netlify.app/#/login
 
 highlights:
   - header: 在 Markdown 中添加你想要的内容
