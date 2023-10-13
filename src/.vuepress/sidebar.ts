@@ -32,6 +32,10 @@ export default sidebar({
                     link: "/guide/vscode"
                 },
                 {
+                    text: "目录结构",
+                    link: "/guide/directory"
+                },
+                {
                     text: "插件",
                     link: "/guide/plugins"
                 }
