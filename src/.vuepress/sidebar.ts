@@ -18,6 +18,25 @@ export default sidebar({
     //     },
     //     "slides",
     // ],
-    "/guide/": "structure",
+    "/guide/": [
+        {
+            text: "指南",
+            prefix: "guide/",
+            children: [
+                {
+                    text: "快速开始",
+                    link: "/guide/start"
+                },
+                {
+                    text: ".vscode文件夹详解",
+                    link: "/guide/vscode"
+                },
+                {
+                    text: "插件",
+                    link: "/guide/plugins"
+                }
+            ],
+        }
+    ],
     "/demo/": "structure"
 });

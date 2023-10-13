@@ -1,6 +1,6 @@
 ---
 home: true
-title: 项目主页
+title: 主页
 heroText: Sky-Admin
 icon: home
 heroImage: /logo.svg

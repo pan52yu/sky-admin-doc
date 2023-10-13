@@ -24,6 +24,8 @@ export default hopeTheme({
     // sidebar
     sidebar,
 
+    sidebarSorter: ["readme", "start", "vscode", "plugins"],
+
     footer: "<a href=\"https://github.com/pan52yu\">evansky</a>",
     copyright: "MIT LICENSE",
 
