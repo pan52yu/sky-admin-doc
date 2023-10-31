@@ -37,6 +37,10 @@ export default sidebar({
                 {
                     text: "插件",
                     link: "/guide/plugins"
+                },
+                {
+                    text: "axios请求",
+                    link: "/guide/axios"
                 }
             ],
         },
